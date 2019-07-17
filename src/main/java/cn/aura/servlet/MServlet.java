@@ -15,7 +15,7 @@ public class MServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("收到请求");
+		System.out.println("Hello");
 		PrintWriter out = response.getWriter(); 
 		out.println("success"); 
 		out.close();
